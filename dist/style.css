@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.container .title {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.container .title h1 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+}
+
+.wrapper {
+  width: 100%;
+  column-count: 4;
+}
+.wrapper .box {
+  width: 100%;
+  padding: 5px 0;
+}
+.wrapper .box img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  .wrapper {
+    column-count: 1;
+  }
+}
