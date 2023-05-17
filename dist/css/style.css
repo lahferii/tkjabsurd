@@ -1,0 +1,95 @@
+/* Raleway Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: raleway, sans-serif;
+}
+::selection{
+  background-color: rgba(236, 201, 0, 1); 
+}
+img::selection{
+  background-color: rgba(0, 0, 0, 0); 
+}
+.container .title {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+.container .title h1 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  line-height: 2rem;
+  margin-bottom: 5px;
+}
+.container .title p {
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+}
+.wrapper .box {
+  width: 100%;
+  padding: 5px 0;
+}
+.wrapper .box img {
+  width: 100%;
+  filter: saturate(0%);
+  cursor: pointer;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer span {
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  color: rgb(50, 50, 50);
+}
+
+@media screen and (min-width: 0px) {
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  .container .title{
+    width: 100%;
+  }
+  .wrapper {
+    column-count: 1;
+  }
+}
+@media screen and (min-width: 600px) {
+  .wrapper {
+    column-count: 2;
+  }
+}
+@media screen and (min-width: 800px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  .wrapper {
+    width: 100%;
+    column-count: 3;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .container .title{
+    width: 70%;
+  }
+  .wrapper {
+    column-count: 4;
+  }
+  .container .title h1 {
+    font-size: 24px;
+  }
+}

@@ -1,9 +1,9 @@
-# Masonry Layout
+# Foto Saya
 
 Contekan, hehe
 
-## Skill Requirement
+## Cara mengunggah Website Ke Internet
 
-- Basic HTML
+- Membuat Akun Netlify
 - CSS Multiple Column
 - Responsive Design 
