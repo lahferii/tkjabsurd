@@ -86,9 +86,6 @@ footer span {
   .container .title{
     width: 70%;
   }
-  .wrapper {
-    column-count: 4;
-  }
   .container .title h1 {
     font-size: 24px;
   }
