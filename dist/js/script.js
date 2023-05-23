@@ -1,6 +1,8 @@
-// let preload = document.getElementById('preload')
+// let button = document.getElementById('tombol')
+// let bgm = new Audio('dist/music/bgm.mp3')
 
-// window.addEventListener('load', setTimeout(function(){
-//   preload.classList.remove('on')
-//   preload.classList.add('off')
-// }, 100))
+// if(button){
+//   button.addEventListener('click', function(){
+//     bgm.play();
+//   })
+// }
