@@ -1,3 +1,1 @@
 # Foto Saya
-
-aowkowkwokwokwokwoko
